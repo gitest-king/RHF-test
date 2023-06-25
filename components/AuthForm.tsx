@@ -21,7 +21,6 @@ const AuthForm = (props: Props) => {
   });
 
   const onSubmit: SubmitHandler<AuthUser> = (data: AuthUser) => {
-    console.log(data)
     props.handleSubmit(data)
   }
   
